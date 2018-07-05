@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人网站</title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+			-webkit-font-smoothing:antialiased;
+			}
+			.header{
+				text-align: center;
+				font-size: 16px;
+				margin-bottom: 20px;
+			}
+			.layer{
+				width: 900px;
+				margin: 0 auto;
+			}
+			.layer-inner{
+				height: 200px;
+				overflow: auto;
+				position: relative;
+			}
+			h2{
+				font-size: 18px;
+				background:#F4F4F4;
+				height: 30px;
+				line-height: 30px;
+			}
+			.content{
+				float:left;
+				width: 700px;
+				overflow: auto;
+			}
+			.layer-content{
+			float: left;
+			width: 350px;
+			font-size: 18px;
+			line-height: 35px;
+			}
+			h2+textarea{
+				resize:none;
+				width: 99%;
+				height: 81%;
+				text-indent: 2em;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>个人简历</h1>
+		</div>
+		<div class="layer">
+			<div class="layer-inner">
+				<h2>个人信息</h2>
+				<div class="content">
+				<p class="layer-content">姓名：<input type="text" /></p>
+				<p class="layer-content">性别：<input type="text" /></p>
+				<p class="layer-content">籍贯：<input type="text" /></p>
+				<p class="layer-content">学历：<input type="text" /></p>
+				<p class="layer-content">学校：<input type="text" /></p>
+				<p class="layer-content">专业：<input type="text" /></p>
+				<p class="layer-content">联系电话：<input type="text" /></p>
+				<p class="layer-content">电子邮箱：<input type="text" /></p>
+				</div>
+			</div>
+			<div class="layer-inner">
+				<h2>教育经历</h2>
+				<textarea ows="3"></textarea>
+			</div>
+			<div class="layer-inner">
+				<h2>工作经历</h2>
+				<textarea></textarea>
+			</div>
+			<div class="layer-inner">
+				<h2>个人作品</h2>
+				<textarea></textarea>
+			</div>
+		</div>
+		
+	</body>
+</html>
